@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0f172a;
+  height: 100vh;
+  color: white;
+  font-family: Roboto;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .images {
+    width: 150px;
+    height: 150px;
+  }
+  .fontsizeing {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
